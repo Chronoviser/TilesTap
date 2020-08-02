@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tiles Tap</string>
+    <string name="time">TIME : 15</string>
+    <string name="Scrore">Score : 0</string>
+    <string name="best">Best : 0</string>
+    <string name="play">PLAY</string>
+    <string name="presented">Presented By:</string>
+    <string name="wranking">Tiles Tap World Ranking</string>
+    <string name="name">Name : Abhishek</string>
+    <string name="score">Score :  132</string>
+</resources>

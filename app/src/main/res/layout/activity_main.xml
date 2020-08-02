@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    tools:context=".MainActivity"
+    android:id="@+id/mainBackgID"
+    android:background="@drawable/back">
+<include
+    android:id="@+id/include1ID"
+    layout="@layout/top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"/>
+    <include
+    android:id="@+id/include2ID"
+    layout="@layout/grid"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+    android:layout_below="@id/include1ID"
+        android:layout_above="@id/include3ID"
+        android:layout_centerInParent="true"/>
+    <include
+    android:id="@+id/include3ID"
+    layout="@layout/bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"/>
+<Button
+    android:id="@+id/wranking"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_alignParentRight="true"
+    android:layout_above="@id/include3ID"
+    android:background="@drawable/buttonincon"
+    android:backgroundTint="@android:color/black"/>
+    <Button
+        android:id="@+id/musicID"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/include1ID"
+        android:background="@drawable/songs_icon"
+        android:backgroundTint="@android:color/black"/>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WrankingActivity"
+    android:padding="2dp"
+    android:id="@+id/RecyclerViewID"
+    android:background="@android:color/black">
+
+<TextView
+    android:id="@+id/wrankingTitleID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/wranking"
+    android:textSize="34sp"
+    android:maxLines="1"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:background="@android:color/holo_orange_light"
+    android:textAlignment="center"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/wrankingTitleID"></androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

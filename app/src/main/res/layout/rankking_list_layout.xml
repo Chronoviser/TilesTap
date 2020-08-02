@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cde">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#cde">
+        <TextView
+            android:id="@+id/nameRankingListID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/scoreRankingListID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

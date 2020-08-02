@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/back">
+<ImageView
+    android:id="@+id/gameIconID"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:src="@drawable/icon2"/>
+    <TextView
+        android:id="@+id/prsesntedID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/presented"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textColor="#cde"
+        android:layout_below="@id/gameIconID"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:id="@+id/companyIconID"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/prsesntedID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/new_logo"/>
+    <com.agrawalsuneet.dotsloader.loaders.BounceLoader
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:bounce_animDuration="1200"
+        app:bounce_ballColor="@android:color/holo_red_dark"
+        app:bounce_ballRadius="22dp"
+        android:layout_centerHorizontal="true"
+        app:bounce_shadowColor="@android:color/secondary_text_dark"
+        app:bounce_showShadow="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
