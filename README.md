@@ -14,3 +14,9 @@ It has the following features :
 10. No hidden charges
 
 ENJOY THE GAME!
+
+
+
+<img src="https://i.ibb.co/2MnWsRj/Screenshot-20201106-213825.png" width="500" height="700"/>
+<img src="https://i.ibb.co/JvVXCBB/Screenshot-20201106-213833.png" width="500" height="700"/>
+<img src="https://i.ibb.co/KFk0Cwk/Screenshot-20201106-213849.png" width="500" height="700"/>
